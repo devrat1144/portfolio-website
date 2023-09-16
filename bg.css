@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     align-content: center;
-    background: url('https://github.com/devrat1144/portfolio-website/blob/e39330458aa3c55fa9d63045d6d911d91bc1bfe1/background.jpg') no-repeat center center fixed ;
+    background: url('./background.jpg') no-repeat center center fixed ;
     background-size: cover;
     display: flex;
     height: 100vh;
