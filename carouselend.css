@@ -1,0 +1,62 @@
+.palette {
+  display: flex;
+  margin-left: 30px;
+  height: 275px;
+  width: 98%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  gap: 10px;
+ /* recomiendo quitar esto/quit this */
+}
+
+.color {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.color span {
+  opacity: 0;
+  transition: opacity 0.1s linear;
+}
+
+.color:nth-child(1) {
+  background: url(file:///C:/Users/hp/Desktop/Dev%20website/LUEHTMLJUL123456_page-0001.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.color:nth-child(2) {
+  background: url(file:///C:/Users/hp/Desktop/youvah1_page-0001.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.color:nth-child(3) {
+  background: #e9c46a;
+}
+
+.color:nth-child(4) {
+  background: #f4a261;
+}
+
+.color:nth-child(5) {
+  background: #e76f51;
+}
+
+.color:hover {
+  flex: 2;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.color:hover span {
+  opacity: 1;
+}

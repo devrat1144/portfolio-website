@@ -1,0 +1,53 @@
+.about_me{
+
+    background-color: rgba(0, 0, 0, 0.568);
+    display: inline-flex;
+   gap: 20px;
+
+    
+}
+.numbers{font-size: 25px;
+
+  
+    width: 15%;
+    color: grey;
+    text-shadow: 10px 10px 15px black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: right;}
+
+.text_about_me{
+    border-left: 4px solid dodgerblue;
+    padding-left: 20px;
+padding-top: 4px;}
+.text_about_me .purple{
+color: rgb(147, 245, 35);
+text-shadow: 10px 10px 15px black;
+font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text_about_me .white{
+    color: white;
+    text-shadow: 10px 10px 15px black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .text_about_me .red{
+        color: rgb(240, 24, 78);
+        text-shadow: 10px 10px 15px black;
+        font-size: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .text_about_me .blue{
+            color: dodgerblue;
+            text-shadow: 10px 10px 15px black;
+            font-size: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            word-spacing: 7px;
+            }
+            .text_about_me .faaltu{
+                color: grey;
+                text-shadow: 10px 10px 15px black;
+                font-size: 20px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }

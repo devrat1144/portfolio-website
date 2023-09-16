@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('file:///C:/Users/hp/Desktop/Dev%20website/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+  }
+  
+ 

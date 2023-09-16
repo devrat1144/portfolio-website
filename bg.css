@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background: url('file:///C:/Users/hp/Desktop/Dev%20website/background.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;  
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+.top{display:inline-flex}
+.corner_button{float: right;
+  
+  align-items: right;
+  margin-top: 25px;
+  margin-left:0px;}
+button {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #21212100;
+  transition: 0.2s;
+  transform-origin: center;
+}
+
+button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #21212100;
+  transition: 0.5s;
+}
+
+button:hover::before, button:hover::after {
+  transform: scale(0)
+}
+
+button:hover {
+  box-shadow: inset 0px 0px 25px #1479EA;
+}
+
+ .logo {align-items: left;
+  align-items: top;
+margin-top: 10px;
+margin-left:15px;
+}
+
+  div {width: 100%;}
+.para{ text-shadow: 20px 20px 35px rgb(0, 0, 0);
+  
+ }
+
+.para .text.name{
+  position: relative;
+  color:dodgerblue;
+  font-size: 60px;
+  font-weight: 600;
+
+}
+.para .text.intro{
+  color:#FFF;
+  font-size: 60px;
+  font-weight: 600;
+}
+.border{margin-left:20%;
+border-left: 6px solid dodgerblue;
+padding-left: 8px;}
+.container .text{
+ 
+  position: relative;
+  color: dodgerblue;
+  text-shadow: 20px 20px 35px #00000063;
+  font-size: 60px;
+  font-weight: 600;
+}
+.container .text.first-text{
+  
+  color: #FFF;
+}
+.text.sec-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }}
+
+
+  .skills_heading{ text-align: center; 
+    text-shadow:20px 20px 35px black;
+  width:100%;
+  size: 100px;
+padding-top: 60px;
+}
+.certificateclass{padding-top: 60px;}
+.aboutclass{padding-top: 60px;}
+.contactclass{padding-top: 60px;}
+  .skills_heading .text.mid{
+    position: relative;
+    color:dodgerblue;
+    font-size: 60px;
+    font-weight: 600;
+   
+ 
+  
+  }
+  .skills_heading .text.start{
+    color:#FFF;
+    font-size: 60px;
+    font-weight: 600;}
+    .skills_heading .text.end{
+      position: relative;
+      color:dodgerblue;
+      font-size: 60px;
+      font-weight: 600;
+    
+    }
+    .skills_heading .text.after{
+      color:#FFF;
+      font-size: 60px;
+      font-weight: 600;}
+      .skills_heading .text.emoji{
+        color:#FFF;
+        font-size: 60px;
+        font-weight: 600;
+      }
+     
+                      .corners{border-radius: 15px;}
+              .contact_buttons{width: fit-content;
+                display: flex;
+               margin-left: 25%;
+              gap: 100px;}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
