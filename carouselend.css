@@ -29,13 +29,13 @@
 }
 
 .color:nth-child(1) {
-  background: url(file:///C:/Users/hp/Desktop/Dev%20website/LUEHTMLJUL123456_page-0001.jpg);
+  background: url(./LUEHTMLJUL123456_page-0001.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .color:nth-child(2) {
-  background: url(file:///C:/Users/hp/Desktop/youvah1_page-0001.jpg);
+  background: url(./youvah1_page-0001.jpg);
   background-size: cover;
   background-position: center;
 }
