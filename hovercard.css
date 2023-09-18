@@ -1,5 +1,5 @@
 .bekaar{width: 1px;}
-.cards {display: inline-flex;
+.cards {display:flex;
     
     gap: 150px;
     margin-left:15% ;
