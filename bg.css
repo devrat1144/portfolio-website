@@ -26,6 +26,8 @@ body {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(20deg, rgb(39, 11, 139) 0%, rgb(56, 181, 212) 46%, rgb(92, 2, 95) 100%);
   border-radius: 10px;
+    height:5px;
+}
 
 
 .top{display:inline-flex}
