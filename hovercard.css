@@ -1,5 +1,5 @@
 .cards {
-    display: flex;
+    display: inline-flex;
     width: 100%;
     gap: 150px;
     margin-left:150px ;
