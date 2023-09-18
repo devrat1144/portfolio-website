@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;  
 }
 
-
+.screen{width:100%;}
 .top{display:inline-flex}
 .corner_button{float: right;
   
