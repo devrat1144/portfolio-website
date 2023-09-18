@@ -1,8 +1,8 @@
-.carddisplay{ display: inline-flex;}
-.cards {
-    width: 100%;
+
+.cards {display: inline-flex;
+    
     gap: 150px;
-    margin-left:150px ;
+    margin-left:15% ;
   }
 
 .hover_card {
