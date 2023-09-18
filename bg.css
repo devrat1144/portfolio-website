@@ -9,9 +9,7 @@ body {
     overflow-x: hidden;  
 }
 
-body::-webkit-scrollbar{
-  display: none;
-}
+
 .top{display:inline-flex}
 .corner_button{float: right;
   
